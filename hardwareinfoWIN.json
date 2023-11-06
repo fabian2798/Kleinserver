@@ -1,0 +1,100 @@
+{
+    "System Information": {
+        "System": "Windows",
+        "Node Name": "NB00890",
+        "Release": "10",
+        "Version": "10.0.18362",
+        "Machine": "AMD64",
+        "Processor": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+        "Boot Time": "2021/4/1 16:27:46"
+    },
+    "CPU Info": {
+        "Physical cores": 2,
+        "Total cores": 4,
+        "Max Frequency": "2401.00Mhz",
+        "Min Frequency": "0.00Mhz",
+        "Current Frequency": "2401.00Mhz",
+        "Core 0": "31.8%",
+        "Core 1": "30.8%",
+        "Core 2": "32.3%",
+        "Core 3": "26.2%",
+        "Total CPU Usage": "32.0%"
+    },
+    "Memory Information": {
+        "Total": "15.91GB",
+        "Available": "10.97GB",
+        "Used": "4.94GB",
+        "Percentage": "31.0%",
+        "SWAP": {
+            "Total": "16.91GB",
+            "Free": "11.64GB",
+            "Used": "5.26GB",
+            "Percentage": "31.1%"
+        }
+    },
+    "Disk Information": {
+        "Partitions and Usage": {
+            "Device C:\\": {
+                "Mountpoint": "C:\\",
+                "File system type": "NTFS",
+                "Total Size": "236.98GB",
+                "Used": "104.28GB",
+                "Free": "132.71GB",
+                "Percentage": "44.0%"
+            },
+            "Device D:\\": {
+                "Mountpoint": "D:\\",
+                "File system type": ""
+            },
+            "Device E:\\": {
+                "Mountpoint": "E:\\",
+                "File system type": "FAT32",
+                "Total Size": "29.02GB",
+                "Used": "15.44GB",
+                "Free": "13.58GB",
+                "Percentage": "53.2%"
+            },
+            "Total read": "15.04GB",
+            "Total write": "7.85GB"
+        }
+    },
+    "Network Information": {
+        "Interface Ethernet 2": {
+            "IP Address": "10.211.2.142",
+            "Netmask": "255.255.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface Ethernet": {
+            "IP Address": "169.254.71.12",
+            "Netmask": "255.255.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface LAN-Verbindung* 1": {
+            "IP Address": "169.254.118.172",
+            "Netmask": "255.255.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface LAN-Verbindung* 2": {
+            "IP Address": "169.254.19.125",
+            "Netmask": "255.255.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface WLAN": {
+            "IP Address": "192.168.178.79",
+            "Netmask": "255.255.255.0",
+            "Broadcast IP": "None"
+        },
+        "Interface Mobilfunk": {
+            "IP Address": "169.254.61.134",
+            "Netmask": "255.255.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface Loopback Pseudo-Interface 1": {
+            "IP Address": "127.0.0.1",
+            "Netmask": "255.0.0.0",
+            "Broadcast IP": "None"
+        },
+        "Total Bytes Sent": "13.01MB",
+        "Total Bytes Received": "81.78MB"
+    }
+}

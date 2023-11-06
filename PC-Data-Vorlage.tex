@@ -1,0 +1,76 @@
+\documentclass[a4paper,left=10mm,right=10mm,top=10mm,bottom=10mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}
+\usepackage{scrlayer-scrpage}
+\usepackage{multicol}
+\usepackage{tabulary}
+
+\newcommand{\BLOCK}[1]{}
+\newcommand{\VAR}[1]{}
+
+\ihead{Fabian Fregin}
+\chead{\textbf{Computerdaten}}
+\ohead{\today}
+\begin{document}
+\section{\VAR{section1}}
+\begin{scriptsize}
+\begin{tabular}{|c|p{11cm}|}
+\BLOCK{ for key, val in sysinfo.items() }
+	\cellcolor{cyan!15}\VAR{key} & \cellcolor{yellow!15}\VAR{val} \\ 
+\BLOCK{ endfor }
+\end{tabular}
+\end{scriptsize}
+\begin{multicols}{2}
+\section{\VAR{section2}}
+\begin{scriptsize}
+\begin{tabular}{|c|c|}
+\BLOCK{ for key, val  in cpuinfo.items() }
+	\cellcolor{cyan!15}\VAR{key} & \cellcolor{yellow!15}\VAR{val} \\ 
+\BLOCK{ endfor }
+\end{tabular}
+\end{scriptsize}
+\columnbreak
+\section{\VAR{section3}}
+\begin{scriptsize}
+\begin{tabular}{|c|c|}
+\BLOCK{ for key, val  in meminfo.items() }
+	\cellcolor{cyan!15}\VAR{key} & \cellcolor{yellow!15}\VAR{val} \\ 
+\BLOCK{ endfor }
+\end{tabular}
+\end{scriptsize}
+\subsection{\VAR{mempart2}}
+\begin{scriptsize}
+\begin{tabular}{|c|c|}
+\BLOCK{ for key, val in memswap.items() }
+	\cellcolor{cyan!15}\VAR{key} & \cellcolor{yellow!15}\VAR{val} \\ 
+\BLOCK{ endfor }
+\end{tabular}
+\end{scriptsize}
+\end{multicols}
+\section{\VAR{disk}}
+\begin{scriptsize}
+\begin{tabular}{|c|p{4.5cm}|c|c|c|c|c|}
+\rowcolor{cyan!15}Partitions and Usage & Mountpoint & FST & Total Size & Used & Free & Percentage \\ \hline
+\BLOCK{ for key in diskinfo.keys() } 
+	\rowcolor{yellow!15}\VAR{key} & \VAR{diskinfo[key]['Mountpoint']} &  \VAR{diskinfo[key]['File system type']} &  \VAR{diskinfo[key]['Total Size']} &  \VAR{diskinfo[key]['Used']} &  \VAR{diskinfo[key]['Free']} &  \VAR{diskinfo[key]['Percentage']} \\ 
+\BLOCK{ endfor }
+\hline
+\rowcolor{yellow!15}Total read & & &\VAR{totalread} & & & \\
+\rowcolor{yellow!15}Total write & & &\VAR{totalwrite} & & &
+\end{tabular}
+\end{scriptsize}
+\section{\VAR{net}}
+\begin{scriptsize}
+\begin{tabular}{|c|c|c|c|c|c|}
+\rowcolor{cyan!15}Interfaces & Transfer & IP-Address & MAC-Address & Netmask & Broadcast \\
+\BLOCK{ for key in netinfo.keys() } 
+	\rowcolor{yellow!15}\VAR{key} &  &  \VAR{netinfo[key]['IP Address']} &  &  \VAR{netinfo[key]['Netmask']} &  \VAR{netinfo[key]['Broadcast IP']}\\ 
+\BLOCK{ endfor }
+\hline
+\rowcolor{yellow!15}Total Bytes Send &\VAR{totalbytessend} & & & &\\
+\rowcolor{yellow!15}Total Bytes Received &\VAR{totalbytesreceived} & & & &
+\end{tabular}
+\end{scriptsize}
+\end{document}

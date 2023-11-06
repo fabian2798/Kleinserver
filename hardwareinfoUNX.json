@@ -1,0 +1,88 @@
+{
+    "System Information": {
+        "System": "Linux",
+        "Node Name": "raspberrypi",
+        "Release": "5.10.17-v7l+",
+        "Version": "#1403 SMP Mon Feb 22 11:33:35 GMT 2021",
+        "Machine": "armv7l",
+        "Processor": "",
+        "Boot Time": "2021/4/6 11:21:23"
+    },
+    "CPU Info": {
+        "Physical cores": 4,
+        "Total cores": 4,
+        "Max Frequency": "1500.00Mhz",
+        "Min Frequency": "600.00Mhz",
+        "Current Frequency": "1500.00Mhz",
+        "Core 0": "27.3%",
+        "Core 1": "28.0%",
+        "Core 2": "8.8%",
+        "Core 3": "27.0%",
+        "Total CPU Usage": "24.6%"
+    },
+    "Memory Information": {
+        "Total": "1.82GB",
+        "Available": "833.93MB",
+        "Used": "835.75MB",
+        "Percentage": "55.3%",
+        "SWAP": {
+            "Total": "100.00MB",
+            "Free": "99.00MB",
+            "Used": "1.00MB",
+            "Percentage": "1.0%"
+        }
+    },
+    "Disk Information": {
+        "Partitions and Usage": {
+            "Device /dev/root": {
+                "Mountpoint": "/var/folder2ram/var/cache/samba",
+                "File system type": "ext4",
+                "Total Size": "28.98GB",
+                "Used": "9.74GB",
+                "Free": "17.98GB",
+                "Percentage": "35.1%"
+            },
+            "Device /dev/mmcblk0p1": {
+                "Mountpoint": "/boot",
+                "File system type": "vfat",
+                "Total Size": "252.05MB",
+                "Used": "48.55MB",
+                "Free": "203.49MB",
+                "Percentage": "19.3%"
+            },
+            "Device /dev/sda1": {
+                "Mountpoint": "/srv/dev-disk-by-uuid-b1e5e335-cc16-470c-9f7f-68078f6cc9d1",
+                "File system type": "ext4",
+                "Total Size": "457.45GB",
+                "Used": "5.38GB",
+                "Free": "452.05GB",
+                "Percentage": "1.2%"
+            },
+            "Total read": "776.51MB",
+            "Total write": "5.40GB"
+        }
+    },
+    "Network Information": {
+        "Interface lo": {
+            "IP Address": "127.0.0.1",
+            "Netmask": "None",
+            "Broadcast IP": "None",
+            "MAC Address": "00:00:00:00:00:00",
+            "Broadcast MAC": "None"
+        },
+        "Interface wlan0": {
+            "IP Address": "192.168.178.87",
+            "Netmask": "None",
+            "Broadcast IP": "192.168.178.255",
+            "MAC Address": "e4:5f:01:16:59:1b",
+            "Broadcast MAC": "ff:ff:ff:ff:ff:ff"
+        },
+        "Interface eth0": {
+            "MAC Address": "e4:5f:01:16:59:1a",
+            "Netmask": "None",
+            "Broadcast MAC": "ff:ff:ff:ff:ff:ff"
+        },
+        "Total Bytes Sent": "131.47MB",
+        "Total Bytes Received": "1.52GB"
+    }
+}

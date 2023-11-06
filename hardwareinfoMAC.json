@@ -1,0 +1,99 @@
+{
+    "System Information": {
+        "System": "Darwin",
+        "Node Name": "Franks-MBP.fritz.box",
+        "Release": "18.7.0",
+        "Version": "Darwin Kernel Version 18.7.0: Tue Jan 12 22:04:47 PST 2021; root:xnu-4903.278.56~1/RELEASE_X86_64",
+        "Machine": "x86_64",
+        "Processor": "i386",
+        "Boot Time": "2021/3/21 15:58:8"
+    },
+    "CPU Info": {
+        "Physical cores": 4,
+        "Total cores": 8,
+        "Max Frequency": "2400.00Mhz",
+        "Min Frequency": "2400.00Mhz",
+        "Current Frequency": "2400.00Mhz",
+        "Core 0": "51.0%",
+        "Core 1": "4.0%",
+        "Core 2": "57.4%",
+        "Core 3": "4.0%",
+        "Core 4": "56.0%",
+        "Core 5": "5.0%",
+        "Core 6": "55.0%",
+        "Core 7": "5.0%",
+        "Total CPU Usage": "29.8%"
+    },
+    "Memory Information": {
+        "Total": "8.00GB",
+        "Available": "2.97GB",
+        "Used": "4.62GB",
+        "Percentage": "62.9%",
+        "SWAP": {
+            "Total": "1.00GB",
+            "Free": "869.50MB",
+            "Used": "154.50MB",
+            "Percentage": "15.1%"
+        }
+    },
+    "Disk Information": {
+        "Partitions and Usage": {
+            "Device /dev/disk1s1": {
+                "Mountpoint": "/",
+                "File system type": "apfs",
+                "Total Size": "233.57GB",
+                "Used": "208.65GB",
+                "Free": "22.26GB",
+                "Percentage": "90.4%"
+            },
+            "Device /dev/disk1s4": {
+                "Mountpoint": "/private/var/vm",
+                "File system type": "apfs",
+                "Total Size": "233.57GB",
+                "Used": "2.00GB",
+                "Free": "22.26GB",
+                "Percentage": "8.2%"
+            },
+            "Device /dev/disk3s1": {
+                "Mountpoint": "/Volumes/SDCARD",
+                "File system type": "exfat",
+                "Total Size": "29.71GB",
+                "Used": "5.32GB",
+                "Free": "24.40GB",
+                "Percentage": "17.9%"
+            },
+            "Device /dev/disk2s2": {
+                "Mountpoint": "/Volumes/Time Machine Backups",
+                "File system type": "hfs",
+                "Total Size": "1.82TB",
+                "Used": "1.81TB",
+                "Free": "4.26GB",
+                "Percentage": "99.8%"
+            },
+            "Total read": "401.86GB",
+            "Total write": "237.70GB"
+        }
+    },
+    "Network Information": {
+        "Interface lo0": {
+            "IP Address": "127.0.0.1",
+            "Netmask": "255.0.0.0",
+            "Broadcast IP": "None"
+        },
+        "Interface en0": {
+            "IP Address": "192.168.178.44",
+            "Netmask": "255.255.255.0",
+            "Broadcast IP": "192.168.178.255"
+        },
+        "Interface p2p0": {},
+        "Interface awdl0": {},
+        "Interface en1": {},
+        "Interface en2": {},
+        "Interface bridge0": {},
+        "Interface utun0": {},
+        "Interface utun1": {},
+        "Interface utun2": {},
+        "Total Bytes Sent": "130.17GB",
+        "Total Bytes Received": "108.18GB"
+    }
+}
